@@ -1,0 +1,75 @@
+/*Handles css for the entire page*/
+.App {
+  text-align: center;
+  display:flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #4A4A4D;
+
+}
+
+/*putting the input thingy in centre*/
+.auth,.loginForm,.regForm {
+  display: flex;
+  flex-direction : column ;
+  
+}
+
+
+.auth {
+  padding:5rem;
+  border : 1px #CA9999;
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 20px;
+  background-color: #CA9999;
+  padding: 0.75rem;
+}
+
+button {
+  border: none;
+  background-color: #CA9999;
+  padding: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/*Login here register here bs*/
+.link-btn {
+  background: none;
+  color: #CA9999;
+  text-decoration: underline;
+}
+
+/*to make dont have an account register here pretty*/
+.para {
+  color:#CA9999;
+}
+
+/*To change color of the email password full name etc etc text*/
+.p1,h2{
+  color:white;
+}
+
+img {
+  width: 200px;
+  height:130px;
+  /* align-items: center; */
+  display:block;
+  margin:auto;
+}
+
+h1 {
+  color:white;
+  text-align: left;
+}
+
