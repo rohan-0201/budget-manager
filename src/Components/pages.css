@@ -1,0 +1,39 @@
+.pages {
+    margin: 0%;
+    width: 100vw;
+    height: 100vh;
+    background-color: #4A4A4D;
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+    
+  }
+  .page{
+   margin: 0%;
+   width: 100vw;
+   height: 100vh;
+   background-color: #4A4A4D;
+  
+   }
+ .heading{
+    color: white;
+    font-family: monospace;
+
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-left: 25%;
+  margin-top: 5%;
+ }
+#headcontainer{
+   background-color: #D9D9D9;
+}
+ .pages #sidebar{
+    flex: 35%;
+ }
+ .pages #page{
+    flex: 65%;
+    margin: 0%;
+    
+ }

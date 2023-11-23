@@ -1,0 +1,117 @@
+/*Handles css for the entire page*/
+.auth{
+    text-align: center;
+    display:flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #4A4A4D;
+  
+  }
+  
+  /*putting the input thingy in centre*/
+  .auth,.loginForm,.regForm {
+    display: flex;
+    flex-direction : column ;
+    
+  }
+  
+  .addexpense{
+    display: flex;
+    flex-direction : column ;
+    padding-bottom: 30%;
+  }
+  .addbudget{
+    display: flex;
+    flex-direction : column ;
+    padding-bottom: 50%;
+
+  }
+  .auth {
+    padding:5rem;
+    border : 1px rgb(240,214,214);
+  }
+ 
+  label {
+    text-align: left;
+    padding: 0.25rem 0;
+    color: #D9D9D9;
+  }
+  
+  input {
+    margin: 0.5rem 0;
+    border: none;
+    border-radius: 20px;
+    background-color:rgb(240,214,214);;
+    padding: 0.75rem;
+  }
+  
+  button {
+    border: none;
+    background-color: rgb(240,214,214);
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  select{
+    margin: 0.5rem 0;
+    border: none;
+    border-radius: 20px;
+    background-color:rgb(240,214,214);;
+    padding: 0.75rem;
+  }
+  /*Login here register here bs*/
+  .link-btn {
+    background: none;
+    color: rgb(240,214,214);
+    text-decoration: underline;
+  }
+  
+  /*to make dont have an account register here pretty*/
+  .para {
+    color:rgb(240,214,214);
+  }
+  
+  /*To change color of the email password full name etc etc text*/
+  .p1,h2{
+    color:white;
+  }
+  
+  img {
+    width: 250px;
+    height:180px;
+    /* align-items: center; */
+    display:block;
+    margin:auto;
+  }
+  
+  h1 {
+    color:white;
+    text-align: left;
+  }
+  table {
+    width: 40px;
+    border-collapse: collapse;
+    align-items: center;
+    font-family: monospace;
+    margin-top: 5%;
+  }
+  
+  th, td {
+    padding: 8px;
+    color: #000000;
+    
+  }
+  
+  td{background-color:#D9D9D9}
+  th{background-color:rgb(240,214,214);
+    color: black;
+  }
+  #editbudget{
+    margin-left: 70%;
+    color: black;
+    margin-top: 5%;
+  }
+  #logout{
+    margin-left: 70%;
+  }
